@@ -10,5 +10,6 @@ import com.vijuu.entity.Question;
 public interface QuestionService {
 	
 	public List<Question> getAllQuestions();
+	public List<Question> getQuestionByCategory(String category);
 
 }
