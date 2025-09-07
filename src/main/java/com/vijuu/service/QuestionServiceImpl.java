@@ -42,7 +42,4 @@ public class QuestionServiceImpl implements QuestionService {
 		quesRepo.save(ques);
 		return "question added successfully";
 	}
-	
-//	dgasdgasdggsdg
-
 }
