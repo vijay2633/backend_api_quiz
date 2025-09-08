@@ -39,6 +39,7 @@ public class QuestionController {
 	@PostMapping("/addQuestion")
 	public ResponseEntity<String> addQuestion(@RequestBody QuestionDTO dto){
 		String addQuestion = service.addQuestion(dto);
+		// added this line in UI
 		return new ResponseEntity<String>(addQuestion, HttpStatus.CREATED);
 	}
 	
