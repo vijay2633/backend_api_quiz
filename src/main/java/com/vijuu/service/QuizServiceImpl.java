@@ -28,6 +28,7 @@ public class QuizServiceImpl implements QuizService {
 // added this line sdsgkgl;dsdgf
 		quizRepo.save(quiz);
 		return "quiz created successfully";
+		// comment from ui sgdasgsdgasdg.
 	}
 
 }
