@@ -18,7 +18,6 @@ import com.vijuu.service.QuizService;
 @RequestMapping("/quiz")
 public class QuizController {
 	
-
 	Logger logger = LoggerFactory.getLogger(QuizController.class);
 	
 	@Autowired
