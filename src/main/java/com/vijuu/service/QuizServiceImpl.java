@@ -25,7 +25,7 @@ public class QuizServiceImpl implements QuizService {
 		Quiz quiz = new Quiz();
 		quiz.setQuestion(questions);
 		quiz.setTitle(title);
-// added this line
+// added this line sdsgkgl;dsdgf
 		quizRepo.save(quiz);
 		return "quiz created successfully";
 	}
