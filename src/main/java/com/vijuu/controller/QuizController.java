@@ -25,7 +25,7 @@ public class QuizController {
 
 	@PostMapping("createQuiz")
 	public ResponseEntity<String> createQuiz(@RequestParam ("category") String category,@RequestParam("numQ") Integer numQ, @RequestParam ("title") String title){
-		logger.info("inside createQuiz");
+		logger.info("inside createQuiz");//added this line from UI
 		String createQuiz = quizService.createQuiz(category, numQ, title);
 		return new ResponseEntity<>(createQuiz, HttpStatus.CREATED);
 	}
