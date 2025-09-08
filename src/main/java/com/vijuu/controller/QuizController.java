@@ -32,7 +32,8 @@ public class QuizController {
 	
 	@GetMapping("/getMsg")
 	public String getMsg() {
-		// return "sdgsgsgasd"; added in the UI
+		 return "sdgsgsgasd"; //added in the UI
+
 	}
 
 
