@@ -17,6 +17,7 @@ public interface QuestionRepository extends JpaRepository<Question, Integer>{
 	public List<Question> findRandomQuestionsByCategory(String category, Integer numQ);
 	
 //	@Query(value = "SELECT * FROM question q WHERE q.category = ?1 ORDER BY RAND() LIMIT ?2", nativeQuery = true)
+//  added this line for stash update
 }
 	
 
