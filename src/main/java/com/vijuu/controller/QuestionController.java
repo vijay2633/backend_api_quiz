@@ -42,7 +42,8 @@ public class QuestionController {
 		// added this line in UI
 		return new ResponseEntity<String>(addQuestion, HttpStatus.CREATED);
 	}
-//	94984613165764
+//	94984613165764nnnn
+
 	
 
 }
