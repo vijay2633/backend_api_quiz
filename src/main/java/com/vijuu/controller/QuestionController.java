@@ -42,7 +42,7 @@ public class QuestionController {
 		// added this line in UI
 		return new ResponseEntity<String>(addQuestion, HttpStatus.CREATED);
 	}
-//	mmjlbjkblkjbkjkjhhklh
+//	..;;@@(@*&$)$&)@$
 	
 
 }
